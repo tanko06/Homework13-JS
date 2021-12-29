@@ -1,0 +1,225 @@
+/*     @font-face {
+        font-family: 'Arimo';
+        src: local('Arimo'),
+            url('../fonts/Arimo-Regular.ttf') format('truetype');
+    } */
+
+@font-face {
+  font-family: "Arimo";
+  src: url("../fonts/arimo.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/arimo.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/arimo.otf") format("opentype"),
+    /* Open Type Font */ url("../fonts/arimo.svg") format("svg"),
+    /* Legacy iOS */ url("../fonts/arimo.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/arimo.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/arimo.woff2") format("woff2"); /* Modern Browsers */
+}
+
+body {
+  font-family: "Arimo";
+}
+.container {
+  max-width: 1286px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+table {
+  border-top: 23px solid #3a4965;
+  border-right: 30px solid #3a4965;
+  border-bottom: 31px solid #3a4965;
+  border-left: 21px solid #3a4965;
+}
+.choose {
+  font-size: 18px;
+  color: #484848;
+  font-weight: 700;
+  text-align: center;
+  /* padding-bottom: 10px; */
+}
+.plan {
+  font-size: 30px;
+  color: #484848;
+  font-weight: 700;
+  text-align: center;
+}
+.headd {
+  width: 311px;
+  /* height: 190px; */
+  padding-top: 68px;
+  padding-bottom: 68px;
+  background-color: #fafafa;
+  display: block;
+}
+.standart {
+  color: #ffffff;
+  background-color: #89c331;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 25px;
+  width: 278px;
+}
+.ultimate {
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #f04a56;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 21px;
+  width: 278px;
+}
+.premium {
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #20807c;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 25px;
+  width: 278px;
+}
+.price {
+  /* height: 187px; */
+  padding: 19px 0;
+}
+.big {
+  font-size: 60px;
+  color: #484848;
+  font-weight: 700;
+}
+.small {
+  display: flex;
+  flex-direction: column;
+}
+.cent {
+  font-size: 24px;
+  color: #484848;
+  font-weight: 700;
+  float: left;
+  margin-top: 8px;
+}
+.per {
+  font-size: 18px;
+  color: #484848;
+  font-weight: 400;
+  float: left;
+}
+.type1 {
+  font-size: 16px;
+  color: #484848;
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 24px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #F2F2F2; */
+}
+i.fas,
+i.far {
+  margin-right: 10px;
+  color: #848484;
+  font-size: 20px;
+}
+.type2 {
+  font-size: 16px;
+  color: #484848;
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 24px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #E3E3E3; */
+}
+button {
+  width: 194px;
+  height: 51px;
+  margin: 31px 57px 28px 57px;
+  color: #ffffff;
+  border: 0;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  /* text-align: center; */
+}
+.contact {
+  background: linear-gradient(to top, #404040 12%, #484848 12%);
+}
+.buy1 {
+  background: linear-gradient(to top, #79b027 12%, #89c331 12%);
+}
+.buy2 {
+  background: linear-gradient(to top, #df3a46 12%, #f04a56 12%);
+}
+.buy3 {
+  background: linear-gradient(to top, #16736f 12%, #20807c 12%);
+}
+button:hover {
+  width: 198px;
+  height: 55px;
+  font-size: 18px;
+  margin: 29px 55px 26px 55px;
+}
+.contact:hover {
+  background: #ffffff;
+  color: #444444;
+  border: 1px solid #444444;
+  box-shadow: 5px 5px 5px #444444;
+}
+.buy1:hover {
+  background: #ffffff;
+  color: #79af28;
+  border: 1px solid #79af28;
+  box-shadow: 5px 5px 5px #93d430;
+}
+.buy2:hover {
+  background: #ffffff;
+  color: #e03c47;
+  border: 1px solid #e03c47;
+  box-shadow: 5px 5px 5px #e03c47;
+}
+.buy3:hover {
+  background: #ffffff;
+  color: #1b7572;
+  border: 1px solid #1b7572;
+  box-shadow: 5px 5px 5px #1b7572;
+}
+.back1 {
+  background-color: #f2f2f2;
+}
+.back2 {
+  background-color: #e3e3e3;
+}
+.back1 td,
+.back2 td {
+  text-align: center;
+  color: #484848;
+  padding: 25px 0 24px 0;
+}
+td:nth-child(2) {
+  box-shadow: 3px 0 1px rgba(38, 43, 48, 0.116),
+    -3px 0 1px rgba(34, 60, 80, 0.116);
+}
+td:nth-child(3)/* , #border */ {
+  box-shadow: 0 0 0 white, 3px 0 1px rgba(34, 60, 80, 0.116), 0 0 0 white,
+    0 0 0 white;
+}
+#price17 {
+  box-shadow: 3px 0 1px rgba(38, 43, 48, 0.116),
+    -3px 0 1px rgba(34, 60, 80, 0.116);
+  border-left: 1px solid #b5b6b911;
+  border-right: 1px solid #b5b6b911;
+}
+#price37 {
+  box-shadow: 0 0 0 white, 3px 0 1px rgba(34, 60, 80, 0.116), 0 0 0 white,
+    0 0 0 white;
+  border-left: 1px solid #b5b6b911;
+  border-right: 1px solid #b5b6b911;
+}
+.prices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
